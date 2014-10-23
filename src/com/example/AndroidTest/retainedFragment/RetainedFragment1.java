@@ -31,7 +31,7 @@ public class RetainedFragment1 extends Fragment
         View view = inflater.inflate(R.layout.layout_retained_fragment1, null);
         Button showDialog = (Button) view.findViewById(R.id.showDialog);
         editText = (EditText) view.findViewById(R.id.etKeepData);
-        editText2 = (EditText) view.findViewById(R.id.etKeepData2);
+//        editText2 = (EditText) view.findViewById(R.id.etKeepData2);
         showDialog.setOnClickListener(new View.OnClickListener()
         {
             @Override
